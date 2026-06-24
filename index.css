@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Work Sans', sans-serif;
+}
+
+.hero-banner{
+    background:#f9eee0;
+    padding:30px 0;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+.logo a{
+    text-decoration:none;
+    font-size:1.5rem;
+    font-weight:bold;
+    color:black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    margin-left:50px;
+
+    
+}
+
+.nav-links{
+    display:flex;
+    gap:5px;
+    list-style:none;
+   
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#424242;
+    margin-right:50px;
+}
+
+.hero{
+    text-align:center;
+    margin-top:60px;
+}
+
+.hero-title{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.hero-title span{
+    color:orange;
+}
+
+.hero-description{
+    margin-top:10px;
+    color:#555;
+    font-size:12px;
+}
+
+.hero-btn{
+    margin-top:30px;
+    padding:15px 25px;
+    border:none;
+    border-radius:8px;
+    background:orange;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.hero-image{
+    width:100%;
+    margin-top:10px;
+   padding:50px;
+    display:block;
+}
